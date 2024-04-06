@@ -1,0 +1,180 @@
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Main Styles */
+.main {
+    padding: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.projects-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.projects-section .project {
+    text-align: center;
+    flex: 0 1 30%;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-title {
+    margin-top: 20px;
+}
+
+.audio {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.pricing-section {
+    margin-top: 50px;
+}
+
+.pricing-table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.pricing-table th {
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #333;
+    color: #fff;
+}
+
+.pricing-table td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.info-list, .service-list {
+    margin-top: 70px;
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Text Bubble Styles */
+.text-bubble {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.text-bubble:hover {
+    background-color: #555;
+}
+
+.text-bubble a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.text-bubble a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+.subscribe-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-form h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subscribe-form input[type="text"],
+.subscribe-form input[type="email"],
+.subscribe-form input[type="tel"],
+.subscribe-form select,
+.subscribe-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.subscribe-form textarea {
+    resize: vertical;
+}
+
+/* Subscribe Button Styles */
+.subscribe-form button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-form button:hover {
+    background-color: #555;
+}

@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Third Page Styles */
+body.third-page {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header.third-page {
+    background-color: #333;
+    color: #fff;
+}
+
+header.third-page nav ul li a {
+    color: #fff;
+}
+
+header.third-page nav ul li a:hover {
+    color: #ccc;
+}
+
+.main.third-page {
+    padding: 50px;
+}
+
+.contact-section.third-page {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section.third-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section.third-page .text-bubble {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-section.third-page .text-bubble:hover {
+    background-color: #555;
+}
+
+.contact-section.third-page .text-bubble a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-section.third-page .text-bubble a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-form.third-page {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe-form.third-page h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe-form.third-page label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.subscribe-form.third-page input[type="text"],
+.subscribe-form.third-page input[type="email"],
+.subscribe-form.third-page input[type="tel"],
+.subscribe-form.third-page select,
+.subscribe-form.third-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+}
+
+.subscribe-form.third-page textarea {
+    resize: vertical;
+}
+
+#subscribe-btn.third-page {
+    background-color: #55090b;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#subscribe-btn.third-page:hover {
+    background-color: #45a049;
+}
+
+.subscribe-success.third-page {
+    display: none;
+    color: #4CAF50;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}

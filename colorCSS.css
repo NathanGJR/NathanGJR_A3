@@ -1,0 +1,73 @@
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Main Styles */
+.main {
+    padding: 20px;
+}
+
+.color-buttons {
+    margin-bottom: 20px;
+}
+
+.color-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Default Color Scheme */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Color Scheme 1 */
+body.scheme1 {
+    background-color: #6495ED; /* Cornflower Blue */
+    color: #fff; /* White text */
+}
+
+/* Color Scheme 2 */
+body.scheme2 {
+    background-color: #FFA07A; /* Light Salmon */
+    color: #000; /* Black text */
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}

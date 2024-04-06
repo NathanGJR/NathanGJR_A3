@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Nathan's Website</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Contact</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="new_page.html">Services</a></li>
+            <li><a href="third_page.html">Contact</a></li>
+            <li><a href="colors.html">Colors</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+    <section class="contact-section">
+        <div class="subscribe-form">
+            <h2>Contact Us</h2>
+            <!-- Form -->
+            <form id="myForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="female">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Nathan's Website.</p>
+</footer>
+
+</body>
+</html>
